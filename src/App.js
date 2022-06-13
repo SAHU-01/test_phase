@@ -13,7 +13,6 @@ import TigaMerge from "./pages/TigaMerge";
 import Suggested_Documents from "./pages/Suggested_Documents";
 import Suggested_Document from "./pages/Suggested_Document";
 import Listed_Documents from "./pages/Listed_Documents";
-import Previewing from "./pages/Previewing";
 import PdfPrint from "./pages/PdfPrint";
 
 import './App.css';

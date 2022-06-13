@@ -14,7 +14,7 @@ function PdfPrint() {
     <div>
         <div className="">
             <div className="">
-            {defaultPdfFile&&<><Worker workerUrl="https://unpkg.com/pdfjs-dist@2.14.305/build/pdf.worker.bundle.worker.js">
+            {defaultPdfFile&&<><Worker workerUrl="https://unpkg.com/pdfjs-dist@2.14.305/build/pdf.worker.min.js">
           <Viewer fileUrl={defaultPdfFile}
             plugins={[defaultLayoutPluginInstance]} />
       </Worker></>}
