@@ -3,13 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@react-pdf-viewer/core": "^3.4.0",
+    "@react-pdf-viewer/default-layout": "^3.4.0",
+    "@syncfusion/ej2-react-documenteditor": "^20.1.57",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "i": "^0.3.7",
+    "pdfjs-dist": "^2.14.305",
     "react": "^18.1.0",
+    "react-doc-viewer": "^0.1.5",
     "react-dom": "^18.1.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack-cli": "^4.9.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "worker-loader": "^3.0.8"
   }
 }
